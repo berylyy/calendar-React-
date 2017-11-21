@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React第二天</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #000;
+            color: #fff;
+        }
+        #app-container{
+            margin:0 auto;
+        }
+        .box {
+            width:40%;
+        }
+        .tip{
+            width: 40%;
+            text-align: center;
+            margin:20px 0;
+        }
+        table {
+            width: 100%;
+        }
+
+        table,
+        th,
+        td,
+        tr {
+            border-collapse: collapse;
+            border: 1px solid #aaa;
+        }
+        td {
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+        }
+        .tip button{
+            width: 20px;
+            height: 20px;
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center;
+            border: none;
+        }
+        .tip button.changeBtnPrev{
+            float: left;
+        }
+        .tip button.changeBtnNext{
+            float: right;
+        }
+        .termTip{
+            color: red;
+        }
+        .tipDay{
+            color: yellow;
+            font-weight: bold;
+    </style>
+</head>
+
+<body>
+    <div id="app-container"></div>
+
+    <script src="dist/bundle.js"></script>
+</body>
+
+</html>
